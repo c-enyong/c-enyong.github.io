@@ -33,7 +33,8 @@ function loadPage()
 	  return;
     }
   }
-  xmlhttp.open("POST","http://lb-bna5y7yl-s9xa7vg2eqhoudkn.clb.ap-shanghai.tencentclb.com/api/geturl.php");
+  xmlhttp.open("POST","https://lb-bna5y7yl-s9xa7vg2eqhoudkn.clb.ap-shanghai.tencentclb.com/api/geturl.php");
   xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   xmlhttp.send("code="+GET('id'));
 }
+loadPage()
